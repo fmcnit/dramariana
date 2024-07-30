@@ -1,0 +1,42 @@
+const buttonOpenMobile = document.getElementById("mobile-button")
+
+const menuMobile = document.getElementById("mobile-menu")
+
+buttonOpenMobile.addEventListener("click", ()=>{
+  
+  
+  menuMobile.classList.remove("hidden");
+  menuMobile.classList.add("-translate-x-[140%]");
+
+    setTimeout(() => {
+      menuMobile.classList.add("-translate-x-[140%]");
+      menuMobile.classList.add("hidden");
+  }, 8000);
+})
+
+const buttonCloseMobile = document.getElementById("mobile-close")
+
+buttonCloseMobile.addEventListener("click", () => {
+  menuMobile.classList.add("-translate-x-[140%]");
+  menuMobile.classList.add("hidden");
+  
+});
+
+const header = document.getElementById("header")
+
+document.addEventListener("scroll", ()=>{
+  
+  const scrollPosition = window.scrollY;
+
+  if(scrollPosition !== 0){
+    header.classList.add("backdrop-blur-lg");
+    header.classList.add("text-bg-color");
+    header.classList.add("hover:text-color-text");
+
+  } else{
+    header.classList.remove("backdrop-blur-lg");
+    header.classList.remove("text-bg-color");
+    header.classList.remove("hover:text-color-text");
+  }
+
+})
