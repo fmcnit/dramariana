@@ -6,10 +6,11 @@ buttonOpenMobile.addEventListener("click", ()=>{
   
   
   menuMobile.classList.remove("hidden");
-  menuMobile.classList.add("-translate-x-[140%]");
+  menuMobile.classList.remove("-right-[18rem]");
+  menuMobile.classList.add("right-0");
 
     setTimeout(() => {
-      menuMobile.classList.add("-translate-x-[140%]");
+      menuMobile.classList.add("-right-[18rem]");
       menuMobile.classList.add("hidden");
   }, 8000);
 })
@@ -17,7 +18,8 @@ buttonOpenMobile.addEventListener("click", ()=>{
 const buttonCloseMobile = document.getElementById("mobile-close")
 
 buttonCloseMobile.addEventListener("click", () => {
-  menuMobile.classList.add("-translate-x-[140%]");
+  menuMobile.classList.remove("right-0");
+  menuMobile.classList.add("-right-[18rem]");
   menuMobile.classList.add("hidden");
   
 });

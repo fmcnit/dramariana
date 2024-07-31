@@ -684,12 +684,12 @@ video {
   left: 1rem;
 }
 
-.right-4 {
-  right: 1rem;
+.right-0 {
+  right: 0px;
 }
 
-.right-\[-100\%\] {
-  right: -100%;
+.right-4 {
+  right: 1rem;
 }
 
 .top-0 {
@@ -710,6 +710,50 @@ video {
 
 .top-\[30rem\] {
   top: 30rem;
+}
+
+.right-\[-100\%\] {
+  right: -100%;
+}
+
+.right-\[100\%\] {
+  right: 100%;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.left-11 {
+  left: 2.75rem;
+}
+
+.right-10 {
+  right: 2.5rem;
+}
+
+.-right-10 {
+  right: -2.5rem;
+}
+
+.-right-20 {
+  right: -5rem;
+}
+
+.-right-40 {
+  right: -10rem;
+}
+
+.-right-\[20\] {
+  right: -20;
+}
+
+.-right-\[20rem\] {
+  right: -20rem;
+}
+
+.-right-\[18rem\] {
+  right: -18rem;
 }
 
 .isolate {
@@ -936,14 +980,6 @@ video {
   height: 100vh;
 }
 
-.h-full {
-  height: 100%;
-}
-
-.h-\[\] {
-  height: ;
-}
-
 .w-1\/2 {
   width: 50%;
 }
@@ -1011,18 +1047,6 @@ video {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-auto {
-  width: auto;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[500px\] {
-  width: 500px;
 }
 
 .flex-shrink {
@@ -2077,14 +2101,6 @@ video {
 
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
-}
-
-.bg-\[url\(\.\/vide\)\] {
-  background-image: url(./vide);
-}
-
-.bg-\[url\(\.\/videos\/video1\.mp4\)\] {
-  background-image: url(./videos/video1.mp4);
 }
 
 .from-color-text {
