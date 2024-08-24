@@ -34,11 +34,13 @@ document.addEventListener("scroll", ()=>{
     header.classList.add("backdrop-blur-lg");
     header.classList.add("text-bg-color");
     header.classList.add("hover:text-color-text");
+    header.classList.add("mt-4");
 
   } else{
     header.classList.remove("backdrop-blur-lg");
     header.classList.remove("text-bg-color");
     header.classList.remove("hover:text-color-text");
+    header.classList.remove("mt-4");
   }
 
 })
